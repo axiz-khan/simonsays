@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(46, 43, 43);
+    text-align: center;
+}
+.text{
+    color: aliceblue;
+}
+#button_container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 33.5%;
+}
+.button{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 5px solid rgb(0, 0, 0); 
+    
+}
+.one{
+    border-radius: 45% 45% 0% 45%; 
+    background-color: rgb(223,47,47);
+}
+.two{
+    border-radius: 45% 45% 45% 0%; 
+    background-color: rgb(65,65,223);
+}
+.three{
+    border-radius: 45% 0% 45% 45%; 
+    background-color: rgb(251,251,84);
+}
+.four{
+    border-radius: 0% 45% 45% 45%; 
+    background-color: rgb(112,254,112);
+}
+.white{
+    background-color: white;
+}
+#highscore{
+    height: 50px;
+    width: 50px;
+    color: gold;
+    position: relative;
+    top: -100px;
+    left:90%;
+    text-align: center;
+}
